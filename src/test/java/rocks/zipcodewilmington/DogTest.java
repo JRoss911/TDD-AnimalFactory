@@ -11,6 +11,7 @@ public class DogTest {
     // TODO - Create tests for `new Dog(String name, Date birthDate, Integer id)`
     @Test
     public void testNewDog(){
+        Dog dog = new Dog(null, null, null);
 
     }
     // TODO - Create tests for `speak`
